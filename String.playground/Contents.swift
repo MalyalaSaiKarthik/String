@@ -15,3 +15,12 @@ print(dev)
 print(author.lowercased())
 
 print(author.uppercased())
+
+print(author[author.startIndex])
+
+print(author[author.index(before: author.endIndex)])
+
+print(dev[dev.startIndex])
+
+print(dev[dev.index(before: dev.endIndex)])
+
